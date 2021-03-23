@@ -18,9 +18,9 @@ class MainPage extends StatelessWidget {
 Widget _buildContent() {
   return Padding(
     padding: EdgeInsets.all(20),
-        child: Column(
+        child: Row(
           mainAxisAlignment: MainAxisAlignment.center,
-          crossAxisAlignment: CrossAxisAlignment.stretch,
+          crossAxisAlignment: CrossAxisAlignment.end,
           children: <Widget>[
             SizedBox(height: 8),
             MainPageButton(
